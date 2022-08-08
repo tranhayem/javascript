@@ -8,6 +8,7 @@
 // 3. Su dung phim tat
 // - window: ctrl + /
 // - macos: comman + /
+
 /**
  * gioi thieu mot so ham built-in
  * 1. Alert
@@ -22,9 +23,36 @@
  * toan tu trong javascript
  * 1. toan tu so hoc- arithmetic( cac phep tinh +; -; *; **; /; %; ++; --)
  * 2. toan tu gan- assignment( =; +=; -=; *=; /=; **=)
- * 3. toan tu so sanh- comparison( >; <; ==)
- * 4. toan tu logic- logical( &&)
+ * 3. toan tu so sanh- comparison( ==; !=; >; <; >=; <=)
+ * 4. toan tu logic- logical( &&; ||; !)
  */
- 
 
- 
+/**
+ * Boolean
+var a =1;
+var b =2;
+var isSuccess = a > b;
+console.log(isSuccess);
+ */
+
+/**
+ * if- else
+ */
+
+/**
+ * cac gia tri trong js
+ * 0
+ * false
+ * '' -""
+ * undefined
+ * NaN
+ * null
+ */
+
+var a= 1;
+var b=2;
+var c=3;
+if(a>0 && b >0){
+    console.log('dieu kien dung');
+    
+}
