@@ -68,10 +68,48 @@ console.log(isSuccess);
  *  đặc biệt: console.log(typeof null); = object
  */
 
-var a=1;
-var b=2;
-var c=3;
-if(a>0 && b >0){
-    console.log('dieu kien dung');
-    
+/**
+ * hiểu hơn về câu điều kiện và phép so sánh
+ * 
+ */
+
+/**
+ * hàm( funciton) trong js
+ * 1. hàm
+ *  một khối mã
+ *  làm 1 việc cụ thể
+ * 2. loại hàm
+ *  built-in
+ *  tự định nghĩa
+ * 3. tính chất
+ *  không thực thi khi định nghĩa
+ *  sẽ thực thi khi được gọi
+ *  có thể nhận tham số
+ *  có thể trả về 1 giá trị
+ * 4. tạo hàm đầu tiên
+ * 
+ * 
+ */
+
+/**
+ * tham số hàm
+ * 1. tham số
+ *  định nghĩa
+ *  kiểu dữ liệu: không giới hạn
+ *  tính private
+ *  1 tham số
+ *  nhiều tham số
+ * 2. truyền tham số
+ *  1 tham số
+ *  nhiều tham số
+ * 3. arguments
+ *  đối tượng arguments
+ *  giới thiệu vòng for
+ */
+var ditmedang = {
+    name: 'đb đảng',
+    age: 21,
+    where: 'nam định',
+
 }
+console.log(ditmedang)
