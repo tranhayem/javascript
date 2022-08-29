@@ -37,6 +37,12 @@ console.log(isSuccess);
 
 /**
  * if- else
+ * cú pháp:
+ * if () {
+ * } else {
+ * };
+ * cách viết đơn giản: 
+ * var biến = điều kiện ? " " : " "; nếu là true thì in ra chuỗi sau ?; false thì in ra chuỗi sau :
  */
 
 /**
@@ -106,10 +112,9 @@ console.log(isSuccess);
  *  đối tượng arguments
  *  giới thiệu vòng for
  */
-var ditmedang = {
-    name: 'đb đảng',
+var tnd = {
+    name: 'tnd',
     age: 21,
-    where: 'nam định',
-
+    where: 'tb',
 }
-console.log(ditmedang)
+console.log(tnd)
