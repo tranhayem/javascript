@@ -11,6 +11,7 @@
 
 /**
  * giới thiệu một số hàm built-in
+ * 
  * 1. Alert
  * 2. Console
  * 3. Confirm
@@ -21,6 +22,7 @@
 
 /**
  * toan tu trong javascript
+ * 
  * 1. toán tử số học- arithmetic( cac phep tinh +; -; *; **; /; %; ++; --)
  * 2. toán tử gán- assignment( =; +=; -=; *=; /=; **=)
  * 3. toán tử so sánh- comparison( ==; !=; >; <; >=; <=; so sánh tuyệt đối ===; !==)
@@ -57,6 +59,7 @@ console.log(isSuccess);
 
 /**
  * kiểu dữ liệu trong js
+ * 
  * 1. dữ liệu nguyên thủy- primitive data
  *  number- số
  *  string- chuỗi( ''; "")
@@ -81,6 +84,7 @@ console.log(isSuccess);
 
 /**
  * hàm( funciton) trong js
+ * 
  * 1. hàm
  *  một khối mã
  *  làm 1 việc cụ thể
@@ -99,8 +103,9 @@ console.log(isSuccess);
 
 /**
  * tham số hàm
+ * 
  * 1. tham số
- *  định nghĩa
+ *  định nghĩa: giá trị truyền vào khi gọi tới 1 function, tham số được sử dụng để làm một công việc gì đó trong function đó
  *  kiểu dữ liệu: không giới hạn
  *  tính private
  *  1 tham số
@@ -112,9 +117,49 @@ console.log(isSuccess);
  *  đối tượng arguments
  *  giới thiệu vòng for
  */
-var tnd = {
-    name: 'tnd',
-    age: 21,
-    where: 'tb',
+
+/**
+ * return là câu lệnh trả về dữ liệu, các câu lệnh phía sau sẽ không được thực hiện
+ */
+
+/**
+ * một số điều cần biết về funciton
+ * 
+ * 1. khi function đặt trùng tên
+ * 2. khai báo biến trong hàm
+ * 3. định nghĩa hàm trong hàm
+ */
+
+/**
+ * các loại function
+ * 
+ * 1. declaration function
+ * // hosting: giúp declaration function có thể gọi trước khi được định nghĩa
+ * 2. expresstion function
+ * vd: var test= function(){}
+ *     test(function() {})
+ *     var test = {myFunction : function(){}}
+ * không cần đặt tên cho function
+ * 3. arrow function
+ */
+
+/**
+ * chuỗi
+ * 
+ * 1. tạo chuỗi
+ *  - các cách tạo chuỗi
+ *  - nên dùng cách nào? lý do?
+ *  - kiểm tra datatype
+ * 2. một số case sử dụng backslash (\)
+ * \' hoặc \" hoặc \\ in ra ký tự sau \
+ * 3. xem độ dài chuỗi
+ * console.log(biến.length)
+ * 4. chú ý độ dài khi viết code
+ * 1 dòng nên để 80 ký tự
+ * 5. template string ES6
+ * console.log(`toi la: ${biến1} ${biến2}`)
+ */
+
+function cong(a, b) {
+    return a+b;
 }
-console.log(tnd)
