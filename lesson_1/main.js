@@ -73,7 +73,7 @@ console.log(isSuccess);
  *          var myObject = { name:'', age: ,...};
  *          var myArray = ['','','',...];
  * 3. kiểm tra kiểu dữ liệu
- *  console.log(typeof );
+ *  console.log(typeof biến);
  *  đặc biệt: console.log(typeof null); = object
  */
 
@@ -158,6 +158,62 @@ console.log(isSuccess);
  * 1 dòng nên để 80 ký tự
  * 5. template string ES6
  * console.log(`toi la: ${biến1} ${biến2}`)
+ */
+
+/**
+ * làm việc với chuỗi
+ * 
+ * 1. length: xem độ dài chuỗi
+ * console.log(biến.length)
+ * 2. find index: tìm kiếm 
+ * console.log(biến.indexOf('ký tự muốn tìm kiếm', ví trí bắt đầu( mặc định là 0)))
+ * console.log(biến.lastIndexOf('ký tự muốn tìm kiếm')) trả về vị trí cuối cùng của ký tự cần tìm trong chuỗi
+ * console.log(biến.search('ký tự muốn tìm kiếm'))
+ * nếu không tìm được ký tự cần tìm thì sẽ trả về -1
+ * 3. cut string
+ * console.log(biến.slice(vị trí đầu, vị trí cuối))
+ * cắt ngược : số âm
+ * 4. replace
+ * thay thế ký tự đầu tiên trong chuỗi: console.log(biến.replace('ký tự muốn thay', 'ký tự thay'))
+ * thay thế tất cả ký tự tìm được trong chuỗi: console.log(biến.replace(/ký tự muốn thay/g, 'ký tự thay'))
+ * 5. convert to upper case
+ * chuyển đổi tất cả chuỗi thành chữ hoa
+ * console.log(biến.toUpperCase())
+ * 6. convert to lower case
+ * console.log(biến.toLowerCase())
+ * chuyển đổi tất cả chuỗi thành chữ thường
+ * 7. trim
+ * loại bỏ ký tự khoảng trắng thừa ở hai đầu
+ * console.log(biến.trim())
+ * 8. split
+ * cắt một chuỗi thành một array
+ * vd: var biến = 'A, B, C'
+ * console.log(biến.split('ký tự chung muốn cắt'))
+ * 9. get a character by index
+ * lấy được ký tự theo vị trí
+ * console.log(biến.charAt(vị trí cần tìm))
+ * console.log(biến[vị trí cần tìm])
+ */
+
+/**
+ * kiểu số(number) trong javascript
+ * 
+ * 1. tạo giá trị number
+ *  - các cách tạo
+ * var biến= số;
+ * var otherNumber = new Number(số);
+ *  - dùng cách nào? tại sao?
+ * không nên dùng cách 2 do từ khóa new khởi tạo 1 đối tượng, kiểu dữ liệu là object chứ không phải number
+ *  - kiểm tra data type
+ * typeof biến
+ * đặc biệt khi kiểm tra NaN phải dùng code
+ * console.log(isNaN(biến))
+ * 2. làm việc với number
+ *  - to string
+ * chuyển kiểu number về string
+ *  - to fixed
+ * dùng để làm tròn số và chuyển biến về kiểu string
+ * console.log(biến.toFixed(số rút gọn còn sau dấu ,))
  */
 
 function cong(a, b) {
