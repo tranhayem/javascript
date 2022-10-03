@@ -12,10 +12,11 @@
 /**
  * giới thiệu một số hàm built-in
  * 
- * 1. Alert
- * 2. Console
- * 3. Confirm
- * 4. Prompt
+ * 1. Alert- hiển thị bảng thông báo nhỏ cho người dùng
+ * 2. Console- 
+ * 3. Confirm- hiển thị thông báo cho người dùng xác nhận
+ * 4. Prompt- được sử dụng để hiển thị thông báo cho người dùng nhập vào một thông tin.
+ *            Popup này sẽ có hai nút cho người dùng OK và Cancel.
  * 5. Set timeout- chạy 1 đoạn code sau 1 khoảng thời gian
  * 6. Set interval- chạy định kỳ 1 đoạn code sau 1 khoảng thời gian
  */
@@ -58,7 +59,7 @@ console.log(isSuccess);
  */
 
 /**
- * kiểu dữ liệu trong js
+ * kiểu dữ liệu trong js- data type
  * 
  * 1. dữ liệu nguyên thủy- primitive data
  *  number- số
@@ -216,6 +217,14 @@ console.log(isSuccess);
  * console.log(biến.toFixed(số rút gọn còn sau dấu ,))
  */
 
-function cong(a, b) {
-    return a+b;
-}
+/**
+ * mảng(array)
+ * 1. tạo mảng
+ *      cách tạo
+ *      sử dụng cách nào? tại sao
+ *      kiểm tra data type
+ * 2. truy xuất mảng
+ *      độ dài mảng
+ *      lấy phần tử theo index
+ * 
+ */
