@@ -228,3 +228,19 @@ console.log(isSuccess);
  *      lấy phần tử theo index
  * 
  */
+
+/**
+ * làm việc với array
+ * 
+ * 1. to string
+ * 2. join
+ * 3. pop
+ * 4. push
+ * 5. shift
+ * 6. unshift
+ * 7. splicing
+ * 8. concat
+ * 9. slicing
+ */
+
+console.log('')
