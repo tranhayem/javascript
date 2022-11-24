@@ -26,7 +26,7 @@ var languages= [
     'HTMLMHT',
     'Cssgo'
 ];
-console.log(languages.join('--'))
+console.log(languages.join('--')) // nối nội dung
 
 // Pop
 var languages= [
